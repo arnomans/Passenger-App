@@ -1,13 +1,8 @@
-let count = 50;
+let count = 0;
 
-count = count + 50;
+let countEL = document.getElementById("count-el");
 
-console.log(count);
-
-count = count - 25;
-
-console.log(count);
-
-count = count - 50;
-
-console.log(count);
+function increment() {
+    count = count + 1;
+    countEL.innerText = count;
+};
