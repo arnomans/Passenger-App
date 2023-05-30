@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-image: url("train_station.jpg");
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 5%;
+    width:80%;
+    margin: auto;
+    margin-top: 220px;
+    padding: 20px;
+    text-align: center;
+}
