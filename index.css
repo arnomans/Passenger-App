@@ -2,6 +2,7 @@
 
 body {
     background-image: url("train_station.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -9,7 +10,49 @@ body {
     border-radius: 5%;
     width:80%;
     margin: auto;
-    margin-top: 220px;
+    margin-top: 120px;
     padding: 20px;
     text-align: center;
 }
+
+h1, p {
+    color: rgb(170, 170, 170);
+}
+
+.counter {
+    color: forestgreen;
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.btn-green {
+    background-color: forestgreen;
+    padding: 15px;
+    border: none;
+    border-radius: 10%;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.btn-orange {
+    background-color: orange;
+    padding: 15px;
+    border: none;
+    border-radius: 10%;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.btn-blue {
+    background-color: skyblue;
+    padding: 15px;
+    border: none;
+    border-radius: 10%;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
